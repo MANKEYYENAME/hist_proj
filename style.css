@@ -1,0 +1,52 @@
+@font-face {
+    font-family: slavFont;
+    src: url(fonts/Slovic_Demo-Serif.otf);
+}
+
+body {
+    background-color: #d6b49a;
+    margin: 30px;
+    color: white;
+    font-family: slavFont; 
+}
+
+.container > img {
+    height: 400px;
+    border-radius: 8px;
+    align-self: center;
+    border: 1px solid #ffffff;
+    padding: 2px;
+}
+
+.container {
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.textd {
+    font-size: 30px;
+    padding: 5px;
+    background-color: #8b6141;
+    align-self: center;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.title {
+    font-size: 50px;
+    padding: 5px;
+    background-color: #8b6141;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.title_main {
+    font-size: 30px;
+    
+    text-align: right;
+}
